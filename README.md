@@ -18,7 +18,7 @@ Also locate ```anno_test.csv```, ```anno_train.csv```, ```name.csv``` on ```clas
 using GAN and Transfer Learning(ResNet VGG)
 
 ## Model Architecture
-[](./Model Architecture.png)
+![architecture](./Model Architecture.png)
 
 ## Training
 Run ```classification/our_proposal_model.ipynb```  
