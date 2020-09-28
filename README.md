@@ -40,9 +40,12 @@ Class that has the highest value in combined result will be shown to user.
 Run ```classification/our_proposal_model.ipynb```  
 If train is finished, ```newModel.pt``` will be created.
 
+## Result
+
 ## Requirements
 Pytorch  
-Python version above than 3.7
+Python version above than 3.7  
+GPU enable device is required for training
 
 ## Reference
 Deep Transfer Learning for Modality Classification of Medical Images  
