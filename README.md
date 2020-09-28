@@ -22,9 +22,19 @@ Also locate ```anno_test.csv```, ```anno_train.csv```, ```name.csv``` on ```clas
 ## Classification:open_file_folder:
 using GAN and Transfer Learning(ResNet VGG)
 
-## Classification Model Architecture:construction_worker:
+### Classification Model Architecture:construction_worker:
 ![architecture](./ModelArchitecture.png)
-We used three training model. Two pre-trained model ResNet, VGG and cutomized 6-layer CNN
+We used three training model, two pre-trained model(ResNet, VGG) and cutomized 6-layer CNN. Each model will be trained and produce result independently. 
+
+After train is finished, result of tree model will be given weights and combined into one result. (Sum of weights is 1)  
+```python
+model1_outputs = model1(inputs) #Indicates result of ResNet50
+model2_outputs = model2(inputs) #Indicates result of VGG16
+model3_outputs = model3(inputs) #Indicates result of 6-layer CNN
+outputs = model1_outputs * 0.3 + model2_outputs * 0.3 + model3_outputs * 0.4 #output is combined result
+```
+
+Class that has the highest value in combined result will be shown to user.
 
 ## Training:runner:
 Run ```classification/our_proposal_model.ipynb```  
@@ -34,4 +44,6 @@ If train is finished, ```newModel.pt``` will be created.
 Pytorch
 Python version above than 3.7
 
-##Reference
+## Reference
+Deep Transfer Learning for Modality Classification of Medical Images
+Yuhai Yu, Hongfei Lin, Jiana Meng, Xiaocong Wei, Hai Guo, and Zhehuan Zhao
