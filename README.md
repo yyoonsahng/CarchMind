@@ -34,16 +34,16 @@ model3_outputs = model3(inputs) #Indicates result of 6-layer CNN
 outputs = model1_outputs * 0.3 + model2_outputs * 0.3 + model3_outputs * 0.4 #output is combined result
 ```
 
-Class that has the highest value in combined result will be shown to user.
+Class that has the highest value in combined result will be shown to user.  
 
 ## Training:runner:
 Run ```classification/our_proposal_model.ipynb```  
 If train is finished, ```newModel.pt``` will be created.
 
 ## Requirements
-Pytorch
+Pytorch  
 Python version above than 3.7
 
 ## Reference
-Deep Transfer Learning for Modality Classification of Medical Images
+Deep Transfer Learning for Modality Classification of Medical Images  
 Yuhai Yu, Hongfei Lin, Jiana Meng, Xiaocong Wei, Hai Guo, and Zhehuan Zhao
