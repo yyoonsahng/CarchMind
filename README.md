@@ -3,7 +3,7 @@
 ## Introduction
 This project had been proceed in class called 'Open Source Project2' in Konkuk University.  
 
-With our project, users will be able to  
+- With our project, users will be able to  
 
 1. Make fake car image with sketch drawing of car. (Using GAN)  
 2. Check which automobile company's model is similar to fake car image based on sketch of users. (Using Transfer Learning)  
@@ -43,9 +43,9 @@ If train is finished, ```newModel.pt``` will be created.
 ## Result
 
 ## Requirements
-Pytorch  
-Python version above than 3.7  
-GPU enable device is required for training
+- Pytorch  
+- Python version above than 3.7  
+- GPU enable device is required for training
 
 ## Reference
 Deep Transfer Learning for Modality Classification of Medical Images  
