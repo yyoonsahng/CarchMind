@@ -5,8 +5,8 @@ This project had been proceed in class called 'Open Source Project2' in Konkuk U
 
 With our project, users will be able to  
 
-1. Make fake car image with sketch drawing of car  
-2. Check which automobile company's model is similar to fake car image based on sketch of users  
+1. Make fake car image with sketch drawing of car.(Using GAN)  
+2. Check which automobile company's model is similar to fake car image based on sketch of users.(Using Transfer Learning)  
 
 ## Installation:hammer:
 Clone this repository via
