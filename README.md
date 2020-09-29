@@ -1,7 +1,7 @@
 # :oncoming_automobile:CarchMind (Car + Catch Mind):oncoming_automobile:
 
 ## Introduction
-This project had been proceed in class called 'Open Source Project2' in Konkuk University.  
+This project had been proceed in class called 'Open Source Project2' in Konkuk University(South Korea).  
 
 - With our project, users will be able to  
 
@@ -48,5 +48,5 @@ If train is finished, ```newModel.pt``` will be created.
 - GPU enable device is required for training
 
 ## Reference
-Deep Transfer Learning for Modality Classification of Medical Images  
+[Deep Transfer Learning for Modality Classification of Medical Images](https://www.mdpi.com/2078-2489/8/3/91)
 Yuhai Yu, Hongfei Lin, Jiana Meng, Xiaocong Wei, Hai Guo, and Zhehuan Zhao
