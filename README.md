@@ -20,8 +20,6 @@ Download Dataset and locate train and test car images on ```classification/data/
 Also locate ```anno_test.csv```, ```anno_train.csv```, ```name.csv``` on ```classification/data/cars/```
 
 ## Classification:open_file_folder:
-using GAN and Transfer Learning(ResNet VGG)
-
 ### Classification Model Architecture:construction_worker:
 ![architecture](./ModelArchitecture.png)
 We used three training model, two pre-trained model(ResNet, VGG) and cutomized 6-layer CNN. Each model will be trained and produce result independently. 
@@ -41,15 +39,20 @@ Run ```classification/our_proposal_model.ipynb```
 If train is finished, ```newModel.pt``` will be created.
 
 ## Result
+### Classification Accuracy
 Our classification model showed better performance than any other single pre-trained model.
 ||ResNet18|ResNet50|VGG16|**Our Model**|
 |------|---|---|---|---|
 |Validation Accuracy|0.6826|0.7604|0.7988|**0.8207**|
 
+### Total Result
+![genesis](./genesis.png)
+![aston](./astonmartin.png)
+
 ## Requirements
 - Pytorch  
 - Python version above than 3.7  
-- GPU enable device is required for training
+- CUDA enable device is required for training
 
 ## Reference
 [Deep Transfer Learning for Modality Classification of Medical Images](https://www.mdpi.com/2078-2489/8/3/91)  
