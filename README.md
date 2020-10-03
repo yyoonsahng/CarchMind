@@ -41,7 +41,7 @@ If train is finished, ```newModel.pt``` will be created.
 ## Result
 ### Classification Accuracy
 Our classification model showed better performance than any other single pre-trained model.
-||ResNet18|ResNet50|VGG16|**Our Model**|
+|Classification Model|ResNet18|ResNet50|VGG16|**Our Model**|
 |------|---|---|---|---|
 |Validation Accuracy|0.6826|0.7604|0.7988|**0.8207**|
 
