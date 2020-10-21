@@ -1,8 +1,7 @@
 # :oncoming_automobile:CarchMind (Car + Catch Mind):oncoming_automobile:
 
 ## Introduction
-This project had been proceed in class called 'Open Source Project2' in Konkuk University(South Korea).  
-
+This project had been proceed in class called 'Open Source Project2'
 - With our project, users will be able to  
 
 1. Make fake car image with sketch drawing of car. (Using Pix2Pix)  
